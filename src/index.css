@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@import "tailwindcss/utilities";
+
+.light {
+  background-color: #fff;      
+  color: #1f2937;              
+}
+.dark {
+  background-color: #111827; 
+  color: #f3f4f6;          
+}
+.select-theme {
+  flex: 1;
+  outline: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d1d5db; 
+  font-size: 0.875rem; 
+  border-radius: 0.5rem; 
+  padding: 0.25rem; 
+  background-color: #fff; 
+  color: #000;
+}
+.dark .select-theme {
+  background-color: #1f2937;
+  color: #fff;
+  border-color: #4b5563; 
+}
+.select-theme:focus {
+  box-shadow: 0 0 0 2px #3b82f6; 
+  border-color: #3b82f6; 
+}
